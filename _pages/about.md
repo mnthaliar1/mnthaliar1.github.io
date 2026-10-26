@@ -1,6 +1,7 @@
 ---
 layout: about
 title: about
+permalink: /
 subtitle: <a href='https://www.ce-mr.org'>CEMR</a> · <a href='https://www.maastrichtuniversity.nl'>Maastricht University</a> · Funded by Programa Álvaro Reyes para Jóvenes Investigadores
 
 profile:
@@ -11,7 +12,7 @@ profile:
     <p>Bogotá & Maastricht</p>
     <p>2025–2026</p>
 
-news: true
+news: false
 selected_papers: false
 social: true
 ---
