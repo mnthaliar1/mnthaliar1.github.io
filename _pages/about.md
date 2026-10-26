@@ -28,7 +28,7 @@ My PhD combines theory, quantitative spatial analysis and qualitative fieldwork:
 - **Mapping institutional invisibility** with Sisbén IV and ILSIS data for 1.7 million households across Bogotá's city blocks, UPZs and localities.
 - **Lived experience** through collaborative cartography, narrative interviews, urban walks and photo elicitation in Teusaquillo, Los Cedros, Galerías and Quinta Paredes.
 
-The fieldwork is part of **Cartographies of Hidden Poverty**, funded by the Álvaro Reyes Young Researchers Grant of the [Centro de Estudios Manuel Ramírez (CEMR)](https://www.ce-mr.org).
+The fieldwork is part of **Cartographies of Hidden Poverty**, funded by the Álvaro Reyes Young Researchers Grant of the [Centro de Estudios Manuel Ramírez (CEMR)](https://www.ce-mr.org). More about the project at [unveilinghiddenpoverty.com](https://unveilinghiddenpoverty.com).
 
 Before the PhD, I worked as a research assistant on the Human Development Report Colombia (UNDP) and on a systematic review of social protection instruments for the Agence Française de Développement (AFD). I hold an M.A. in Development Studies from the International Institute of Social Studies (Erasmus University Rotterdam) and a B.A. in Economics, _cum laude_, from Universidad Santo Tomás.
 

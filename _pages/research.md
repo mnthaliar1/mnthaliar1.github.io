@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+For the research project, see [unveilinghiddenpoverty.com](https://unveilinghiddenpoverty.com).
+
 ## Paper 1 — Unveiling Hidden Poverty: A Theoretical Framework
 
 Hidden poverty is a multidimensional phenomenon operating across five interdependent dimensions:
