@@ -6,6 +6,8 @@ subtitle: PhD Fellow · <a href='https://www.merit.unu.edu'>UNU-MERIT</a> / <a h
 
 profile:
   align: right
+  image: prof_pic.jpg
+  image_circular: false
   more_info: >
     <p>Maastricht, the Netherlands</p>
     <p>Bogotá, Colombia</p>
