@@ -2,39 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ce-mr.org'>CEMR</a> · <a href='https://www.maastrichtuniversity.nl'>Maastricht University</a> · Funded by Programa Álvaro Reyes para Jóvenes Investigadores
+subtitle: PhD Fellow · <a href='https://www.merit.unu.edu'>UNU-MERIT</a> / <a href='https://www.maastrichtuniversity.nl'>Maastricht University</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false
   more_info: >
-    <p>Bogotá & Maastricht</p>
-    <p>2025–2026</p>
+    <p>Maastricht, the Netherlands</p>
+    <p>Bogotá, Colombia</p>
+    <p><a href="mailto:ramirez@merit.unu.edu">ramirez@merit.unu.edu</a></p>
 
 news: false
 selected_papers: false
 social: true
 ---
 
-**Unveiling Hidden Poverty** is a participatory research project mapping hidden poverty in Colombian cities — where households live in precarity that official systems fail to recognize.
+I am a PhD Fellow in Innovation, Economics, Governance and Sustainable Development (IEGSD) at **UNU-MERIT / Maastricht University**. My research studies **hidden poverty** (_pobreza oculta_) in Bogotá, Colombia: households living with real, present deprivation that institutional instruments are structurally designed not to see.
 
-Unlike traditional poverty, hidden poverty affects households that are **not officially recognized as poor**, yet experience significant economic, symbolic, and relational deprivations in their daily lives. What is not seen or understood can hardly be addressed by decision-makers.
+Hidden poverty is not the same as vulnerability. Vulnerability describes prospective exposure to the risk of falling into poverty. Hidden poverty describes deprivation that is already present, above official thresholds, and unrecognised by the State's classification systems and often by households themselves.
 
-The project works in two articulated moments:
+My PhD combines theory, quantitative spatial analysis and qualitative fieldwork:
 
-- **Institutional mapping** — analyzing 1.7 million households using Sisbén IV and ILSIS data to identify structural patterns of non-recognition at block, UPZ, and locality scale in Bogotá.
-- **Lived experience** — participatory fieldwork with collaborative mapping, narrative interviews, urban walks, and disposable camera photography in the identified territories (Teusaquillo, Los Cedros, Galerías, Quinta Paredes).
+- **A theoretical framework** of hidden poverty across five dimensions of invisibility: economic, social, empowerment, psychosocial and political-symbolic.
+- **Mapping institutional invisibility** with Sisbén IV and ILSIS data for 1.7 million households across Bogotá's city blocks, UPZs and localities.
+- **Lived experience** through collaborative cartography, narrative interviews, urban walks and photo elicitation in Teusaquillo, Los Cedros, Galerías and Quinta Paredes.
 
-> **Key distinction:** Hidden poverty is NOT the same as vulnerability. Vulnerability describes prospective exposure to risk. Hidden poverty describes a present multidimensional deprivation — above the threshold, unrecognized by the system, and often by the person themselves.
+The fieldwork is part of **Cartographies of Hidden Poverty**, funded by the Álvaro Reyes Young Researchers Grant of the [Centro de Estudios Manuel Ramírez (CEMR)](https://www.ce-mr.org).
+
+Before the PhD, I worked as a research assistant on the Human Development Report Colombia (UNDP) and on a systematic review of social protection instruments for the Agence Française de Développement (AFD). I hold an M.A. in Development Studies from the International Institute of Social Studies (Erasmus University Rotterdam) and a B.A. in Economics, _cum laude_, from Universidad Santo Tomás.
 
 ---
 
-**Develando la Pobreza Oculta** es un proyecto de investigación participativa que cartografía la pobreza oculta en ciudades colombianas — donde los hogares viven en precariedad que los sistemas oficiales no logran reconocer.
-
-A diferencia de la vulnerabilidad, la pobreza oculta describe una **privación multidimensional presente**, por encima del umbral, no reconocida por el sistema ni con frecuencia por el propio sujeto. Lo que no se ve ni se comprende difícilmente será abordado por quienes toman decisiones.
-
-El proyecto trabaja en dos momentos articulados:
-
-- **Cartografía institucional** — análisis de 1,7 millones de hogares con datos Sisbén IV e ILSIS para identificar patrones estructurales de no-reconocimiento en Bogotá.
-- **Experiencia vivida** — investigación participativa con cartografía colaborativa, entrevistas narrativas, caminatas urbanas y fotografía con cámaras desechables en los territorios identificados.
+Soy investigadora doctoral en UNU-MERIT / Universidad de Maastricht. Estudio la **pobreza oculta** en Bogotá: hogares con privaciones reales y presentes que los instrumentos institucionales no están diseñados para ver.

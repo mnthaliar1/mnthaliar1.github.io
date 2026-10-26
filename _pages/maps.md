@@ -3,7 +3,7 @@ layout: page
 title: Maps / Mapas
 permalink: /maps/
 description: Interactive maps showing key research territories in Bogotá.
-nav: true
+nav: false
 nav_order: 3
 ---
 

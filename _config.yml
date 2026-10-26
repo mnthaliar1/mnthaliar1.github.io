@@ -2,17 +2,17 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Unveiling Hidden Poverty
-first_name: Unveiling Hidden Poverty
+title: María Nathalia Ramírez Chaparro
+first_name: María Nathalia
 middle_name:
-last_name:
+last_name: Ramírez Chaparro
 contact_note: >
-  You can reach the research team via email or through our institutional affiliations.
+  The best way to reach me is by email.
 description: >
-  A participatory research project mapping hidden poverty in Colombian cities — where households live in precarity that official systems fail to recognize.
+  Personal website of María Nathalia Ramírez Chaparro, PhD Fellow at UNU-MERIT / Maastricht University, researching hidden poverty in Bogotá, Colombia.
 footer_text: >
-  Unveiling Hidden Poverty · 2025–2026 · Centro de Estudios Manuel Ramírez & Maastricht University
-keywords: hidden poverty, pobreza oculta, Bogotá, urban poverty, participatory research, Colombia, Sisbén, ILSIS
+  María Nathalia Ramírez Chaparro · UNU-MERIT / Maastricht University
+keywords: hidden poverty, pobreza oculta, Bogotá, urban poverty, social protection, multidimensional poverty, Colombia, Sisbén, UNU-MERIT
 lang: en
 icon: 🗺️
 
@@ -262,8 +262,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Ramírez, Nimeh, Gassman, Franco]
-  first_name: [María Nathalia, Nathalia, Zina, Franziska, Andrea]
+  last_name: [Ramírez, Ramírez Chaparro]
+  first_name: [María Nathalia, Nathalia, M., M. N.]
 
   style: apa
   locale: en

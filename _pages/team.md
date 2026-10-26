@@ -3,7 +3,7 @@ layout: page
 title: Team / Equipo
 permalink: /team/
 description: The research team behind Unveiling Hidden Poverty.
-nav: true
+nav: false
 nav_order: 4
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Collaborations / Colaboraciones
 permalink: /collaborations/
 description: Institutional partners and collaborators.
-nav: true
+nav: false
 nav_order: 7
 ---
 

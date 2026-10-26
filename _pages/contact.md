@@ -3,7 +3,7 @@ layout: page
 title: Contact / Contacto
 permalink: /contact/
 description: Get in touch with the research team.
-nav: true
+nav: false
 nav_order: 8
 ---
 

@@ -2,14 +2,19 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
-nav: false
-nav_order: 6
-calendar: true
+description: Teaching, supervision and mentoring.
+nav: true
+nav_order: 4
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+## Teaching
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
+**Semester 1, 2025–2026** · Tutor, _Introduction to Global Studies_, Faculty of Arts and Social Sciences (FASoS), Maastricht University
 
-{% include courses.liquid %}
+**2025–2026** · Second Reader and Thesis Evaluator; Thesis Supervisor, Master of Science in Public Policy and Human Development (MPP), UNU-MERIT / Maastricht University
+
+## Mentoring
+
+**2025** · Maria Guadalupe Garcia Alonso, mentored for EAAMO’25 – Oxford Local: ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization
+
+**2024–2026** · Mentor to two students, Master of Science in Public Policy and Human Development (MPP), UNU-MERIT / Maastricht University

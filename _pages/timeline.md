@@ -3,7 +3,7 @@ layout: page
 title: Progress / Avances
 permalink: /timeline/
 description: Project timeline and deliverables.
-nav: true
+nav: false
 nav_order: 5
 ---
 

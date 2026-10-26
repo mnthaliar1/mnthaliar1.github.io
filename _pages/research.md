@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Research / Investigación
+title: research
 permalink: /research/
-description: The three research components of the Unveiling Hidden Poverty project.
+description: My PhD research on hidden poverty in Bogotá, Colombia.
 nav: true
 nav_order: 2
 ---
 
-## Conceptual Framework
+## Paper 1 — Unveiling Hidden Poverty: A Theoretical Framework
 
 Hidden poverty is a multidimensional phenomenon operating across five interdependent dimensions:
 
@@ -33,7 +33,6 @@ Four **modifying factors** shape intensity: location (urban vs rural), temporali
 
 **Focus territories:** Teusaquillo · Los Cedros · Galerías · Quinta Paredes
 
-**Target:** International journal in urban development / poverty studies — Month 8
 
 ---
 
@@ -47,4 +46,3 @@ Invisibility is not only structural — it is also **performative**. Households 
 
 Rather than asking directly about economic situation, we explore tensions between appearance and experience.
 
-**Target:** International journal — Month 12
