@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "mnthaliar1/unveiling-hidden-poverty",
+    "data-repo": "mnthaliar1/mnthaliar1.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
