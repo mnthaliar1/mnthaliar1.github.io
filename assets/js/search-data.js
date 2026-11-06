@@ -30,6 +30,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-beyond-the-frame",
+          title: "beyond the frame",
+          description: "How poverty is pictured in art and film, and who stays outside the frame.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/beyond-the-frame/";
+          },
+        },{id: "nav-fieldnotes",
+          title: "fieldnotes",
+          description: "Small moments, places and things worth noticing.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/fieldnotes/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
