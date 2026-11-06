@@ -8,7 +8,9 @@ layout: default
 <div class="home">
   <section class="home-hero">
     <div class="hero-text">
-      {% if page.hero.label %}<span class="pill">{{ page.hero.label }}</span>{% endif %}
+      {% if page.hero.label -%}
+        <span class="pill">{{ page.hero.label }}</span>
+      {%- endif %}
       <h1>{{ page.hero.title }}</h1>
       <p class="hero-intro">{{ page.hero.intro }}</p>
       <div class="hero-actions">
@@ -21,9 +23,15 @@ layout: default
     {% if page.hero.image %}
       <figure class="hero-photo">
         <div class="photo-frame">
-          <img src="{{ page.hero.image | prepend: 'assets/img/' | relative_url }}" alt="Portrait of {{ site.first_name }} {{ site.last_name }}" loading="eager">
+          <img
+            src="{{ page.hero.image | prepend: 'assets/img/' | relative_url }}"
+            alt="Portrait of {{ site.first_name }} {{ site.last_name }}"
+            loading="eager"
+          >
         </div>
-        {% if page.hero.caption %}<figcaption>{{ page.hero.caption }}</figcaption>{% endif %}
+        {% if page.hero.caption %}
+          <figcaption>{{ page.hero.caption }}</figcaption>
+        {% endif %}
       </figure>
     {% endif %}
   </section>
@@ -35,7 +43,9 @@ layout: default
           <div class="card-top">
             <div class="card-head">
               <span class="pill">{{ card.tag }}</span>
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#111111" stroke-width="1.6" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6"></path></svg>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#111111" stroke-width="1.6" aria-hidden="true">
+                <path d="M4 12 12 4M6 4h6v6"></path>
+              </svg>
             </div>
             <span class="card-name">{{ card.title }}</span>
             <span class="card-desc">{{ card.description }}</span>
@@ -66,10 +76,14 @@ layout: default
           <a class="writing-row" href="{{ post.url | relative_url }}">
             <span class="row-text">
               <span class="row-title">{{ post.title }}</span>
-              {% if post.description %}<span class="row-desc">{{ post.description }}</span>{% endif %}
+              {% if post.description -%}
+                <span class="row-desc">{{ post.description }}</span>
+              {%- endif %}
             </span>
             <span class="row-meta">
-              {% if cat %}<span class="pill cat-{{ cat | slugify }}">{{ cat }}</span>{% endif %}
+              {% if cat -%}
+                <span class="pill cat-{{ cat | slugify }}">{{ cat }}</span>
+              {%- endif %}
               {{ post.date | date: '%b %Y' }}
             </span>
           </a>

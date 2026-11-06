@@ -13,13 +13,13 @@ For the research project, see [unveilinghiddenpoverty.com](https://unveilinghidd
 
 Hidden poverty is a multidimensional phenomenon operating across five interdependent dimensions:
 
-| Dimension | Key elements |
-|-----------|-------------|
-| **Economic** | Precarious employment, downward mobility, financial precarity, material deprivation |
-| **Social** | Weakened networks, isolation, stigma, shame, withdrawal from community life |
-| **Empowerment & Agency** | Limited autonomy, representational barriers, intersectional exclusions |
-| **Psychosocial** | Shame as emotional driver, identity crisis, psychological distress, loss of self-worth |
-| **Political-Symbolic** | Invisibility in public policy, structural exclusion from social protection systems |
+| Dimension                | Key elements                                                                           |
+| ------------------------ | -------------------------------------------------------------------------------------- |
+| **Economic**             | Precarious employment, downward mobility, financial precarity, material deprivation    |
+| **Social**               | Weakened networks, isolation, stigma, shame, withdrawal from community life            |
+| **Empowerment & Agency** | Limited autonomy, representational barriers, intersectional exclusions                 |
+| **Psychosocial**         | Shame as emotional driver, identity crisis, psychological distress, loss of self-worth |
+| **Political-Symbolic**   | Invisibility in public policy, structural exclusion from social protection systems     |
 
 Four **modifying factors** shape intensity: location (urban vs rural), temporality (life events), cultural beliefs (attitudes toward self-sufficiency), and social strata (middle-class descent, young professionals with debt, migrant communities).
 
@@ -35,12 +35,11 @@ Four **modifying factors** shape intensity: location (urban vs rural), temporali
 
 **Focus territories:** Teusaquillo · Los Cedros · Galerías · Quinta Paredes
 
-
 ---
 
 ## Paper 3 — Performing Non-Poverty
 
-> *"Performing Non-Poverty: Lived Experiences and Spatial Practices of Hidden Poverty in Bogotá"*
+> _"Performing Non-Poverty: Lived Experiences and Spatial Practices of Hidden Poverty in Bogotá"_
 
 Invisibility is not only structural — it is also **performative**. Households actively participate in their own invisibilization as a mechanism of symbolic survival.
 
