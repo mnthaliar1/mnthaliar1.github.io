@@ -1,0 +1,8 @@
+# Fieldnotes photos. Put the image files in assets/img/fieldnotes/ and add one
+# entry per photo below (newest first). Only image is required.
+#
+# - image: bogota-sunset.jpg
+#   place: Bogotá
+#   date: October 2026
+#   caption: The light over the hills after the rain.
+#   alt: Orange sunset over the eastern hills of Bogotá
