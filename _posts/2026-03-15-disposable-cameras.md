@@ -13,7 +13,7 @@ This choice is methodological, not nostalgic.
 
 ## The inverted photovoice design
 
-Standard photovoice gives participants cameras at the start of a research process and asks them to document their world. We invert this sequence. Cameras are given **after** an initial in-depth interview, with a specific prompt: *photograph the tensions between how your life appears and how it is actually experienced.*
+Standard photovoice gives participants cameras at the start of a research process and asks them to document their world. We invert this sequence. Cameras are given **after** an initial in-depth interview, with a specific prompt: _photograph the tensions between how your life appears and how it is actually experienced._
 
 Participants keep the camera for two weeks. Then we meet again — this time to develop the film together and analyze the images in a return interview.
 
@@ -29,6 +29,6 @@ Participants keep the camera for two weeks. Then we meet again — this time to 
 
 ## What we are asking participants to see
 
-We are not asking about poverty. We are asking about *appearance and experience* — about the gap between how a household presents itself to the world and how daily life is actually felt. This framing allows participants to engage with their own situation without the stigma that poverty language carries.
+We are not asking about poverty. We are asking about _appearance and experience_ — about the gap between how a household presents itself to the world and how daily life is actually felt. This framing allows participants to engage with their own situation without the stigma that poverty language carries.
 
 The photographs, analyzed together in the return interview, become a third voice in the conversation — neither the researcher's interpretation nor the participant's verbal account, but something that emerged from their own deliberate gaze.

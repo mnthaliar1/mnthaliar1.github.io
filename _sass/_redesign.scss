@@ -1,0 +1,444 @@
+/*******************************************************************************
+ * Redesign 2026 — al-folio + pastel
+ * Palette, typography and homepage components. Everything specific to the
+ * redesign lives in this file so the al-folio partials stay close to upstream.
+ ******************************************************************************/
+
+// Palette
+$ink: #111111;
+$ink-soft: #4d4d4d;
+$muted: #5e5e5e;
+$line: #ececea;
+$surface: #f5f5f3;
+$surface-2: #e6e6e3;
+$indigo: #4a4fd0; // links (6:1 on white)
+$periwinkle: #c9cef4;
+$coral: #f2b4a8;
+$butter: #ece885;
+$mauve: #a893b8;
+$orange: #f47c3c;
+
+:root {
+  --pastel-periwinkle: #{$periwinkle};
+  --pastel-coral: #{$coral};
+  --pastel-butter: #{$butter};
+  --pastel-mauve: #{$mauve};
+  --pastel-orange: #{$orange};
+}
+
+// ---------------------------------------------------------------------------
+// Typography
+// ---------------------------------------------------------------------------
+html body {
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    sans-serif;
+  color: $ink;
+}
+
+h1,
+h2,
+h3,
+h4,
+.post-title,
+.navbar-brand {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
+
+.post-header .post-title {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+// ---------------------------------------------------------------------------
+// Navbar: name left, lowercase links right, orange underline on active page
+// ---------------------------------------------------------------------------
+#navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid $line;
+  box-shadow: none;
+
+  .navbar-brand {
+    color: $ink;
+    font-size: 1.1rem;
+  }
+
+  .nav-link {
+    color: $ink !important;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .nav-item.active > .nav-link {
+    font-weight: 500;
+    box-shadow: inset 0 -2px 0 $orange;
+  }
+
+  .nav-link:hover {
+    color: $indigo !important;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Footer: light, centred
+// ---------------------------------------------------------------------------
+footer.sticky-bottom,
+footer.fixed-bottom {
+  border-top: 1px solid $line;
+  font-size: 0.85rem;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+// ---------------------------------------------------------------------------
+// Shared pieces
+// ---------------------------------------------------------------------------
+.pill {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 0.2rem 0.8rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1.5;
+  background: $surface-2;
+  color: $ink;
+}
+
+.btn-ink,
+.btn-outline-ink {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.7rem 1.3rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease;
+}
+
+.btn-ink {
+  background: $ink;
+  color: #ffffff !important;
+
+  &:hover {
+    background: #333333;
+  }
+}
+
+.btn-outline-ink {
+  border: 1px solid #d6d6d3;
+  color: $ink !important;
+  font-weight: 500;
+
+  &:hover {
+    background: $surface;
+  }
+}
+
+// Category colours, used on the homepage and the writing list
+.cat-fieldwork {
+  background: $periwinkle;
+}
+.cat-theory {
+  background: $coral;
+}
+.cat-data {
+  background: $butter;
+}
+.cat-art {
+  background: $mauve;
+}
+
+// ---------------------------------------------------------------------------
+// Homepage
+// ---------------------------------------------------------------------------
+.home {
+  padding-bottom: 2rem;
+
+  section {
+    margin-bottom: 5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.home-hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 3rem;
+
+  .hero-text {
+    flex: 999 1 420px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.4rem;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(2.6rem, 6vw, 4.2rem);
+    line-height: 1.02;
+    font-weight: 700;
+    letter-spacing: -0.035em;
+  }
+
+  .hero-intro {
+    margin: 0;
+    max-width: 32rem;
+    font-size: 1.07rem;
+    color: $ink-soft;
+
+    b,
+    strong {
+      color: $ink;
+    }
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .hero-photo {
+    flex: 1 1 260px;
+    margin: 0;
+    max-width: 360px;
+
+    .photo-frame {
+      background: $periwinkle;
+      border-radius: 24px;
+      padding: 1.2rem 1.2rem 0;
+      overflow: hidden;
+    }
+
+    img {
+      width: 100%;
+      height: 360px;
+      object-fit: cover;
+      border-radius: 16px 16px 0 0;
+      display: block;
+    }
+
+    figcaption {
+      margin-top: 0.6rem;
+      font-size: 0.82rem;
+      color: $muted;
+      text-align: center;
+    }
+  }
+}
+
+.section-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.section-card {
+  display: flex;
+  flex-direction: column;
+  background: $surface;
+  border-radius: 22px;
+  overflow: hidden;
+  color: $ink !important;
+  text-decoration: none !important;
+  transition: transform 0.15s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+
+  .card-top {
+    padding: 1.2rem 1.2rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    min-height: 170px;
+  }
+
+  .card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-name {
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.08;
+    letter-spacing: -0.025em;
+  }
+
+  .card-desc {
+    font-size: 0.88rem;
+    line-height: 1.5;
+    color: $muted;
+  }
+
+  .card-art {
+    height: 180px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home-about {
+  max-width: 46rem;
+
+  p {
+    color: $ink-soft;
+  }
+}
+
+.home-writing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+
+  .writing-intro {
+    flex: 1 1 240px;
+    min-width: 0;
+
+    p {
+      color: $muted;
+      font-size: 0.95rem;
+    }
+  }
+
+  .writing-list {
+    flex: 999 1 480px;
+    min-width: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.writing-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem 1.25rem;
+  padding: 1.3rem 0;
+  border-bottom: 1px solid $line;
+  color: $ink !important;
+  text-decoration: none !important;
+
+  .row-text {
+    flex: 999 1 340px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .row-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    line-height: 1.3;
+  }
+
+  &:hover .row-title {
+    color: $indigo;
+  }
+
+  .row-desc {
+    font-size: 0.88rem;
+    color: $muted;
+  }
+
+  .row-meta {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 0.8rem;
+    color: $muted;
+  }
+}
+
+.feature-band {
+  background: $butter;
+  border-radius: 28px;
+  padding: 2.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+
+  .feature-text {
+    flex: 999 1 380px;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  h2 {
+    margin: 0;
+    font-size: 2.3rem;
+  }
+
+  p {
+    margin: 0;
+    color: #2e2e2a;
+  }
+
+  .pill {
+    background: #ffffff;
+  }
+}
+
+.home .social {
+  text-align: center;
+}
+
+// ---------------------------------------------------------------------------
+// Writing (blog) list: category pill next to each post
+// ---------------------------------------------------------------------------
+.post-list .post-tags .pill {
+  margin-left: 0.25rem;
+}
+
+@media (max-width: 576px) {
+  .home-hero {
+    padding-top: 1.5rem;
+  }
+  .feature-band {
+    padding: 1.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-card,
+  .btn-ink,
+  .btn-outline-ink {
+    transition: none;
+  }
+  .section-card:hover {
+    transform: none;
+  }
+}

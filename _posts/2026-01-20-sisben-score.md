@@ -23,7 +23,7 @@ The combination of Sisbén IV individual scores and ILSIS territorial aggregatio
 
 ## The blind spot
 
-Households that are above the C09 threshold but experiencing multidimensional deprivation are invisible in *both* systems:
+Households that are above the C09 threshold but experiencing multidimensional deprivation are invisible in _both_ systems:
 
 - They are above Sisbén's targeting threshold → excluded from individual targeting
 - Their UPZ shows low aggregate need (because the visible poor are a small share) → excluded from territorial targeting

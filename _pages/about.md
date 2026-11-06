@@ -1,17 +1,64 @@
 ---
-layout: about
+layout: home
 title: about
 permalink: /
-subtitle: PhD Fellow · <a href='https://www.merit.unu.edu'>UNU-MERIT</a> / <a href='https://www.maastrichtuniversity.nl'>Maastricht University</a>
 
-profile:
-  align: right
+hero:
+  label: PhD Fellow · UNU-MERIT / Maastricht University
+  title: Looking beyond<br>what we can<br>measure.
+  intro: >-
+    I study <b>hidden poverty</b> (<i lang="es">pobreza oculta</i>) in Bogotá: households living with
+    real deprivation that institutional instruments are not designed to see. I am interested in the
+    things we overlook, and the stories that rarely make it into statistics.
   image: prof_pic.jpg
-  image_circular: false
-  more_info: >
-    <p>Maastricht, the Netherlands</p>
-    <p>Bogotá, Colombia</p>
-    <p><a href="mailto:ramirez@merit.unu.edu">ramirez@merit.unu.edu</a></p>
+  caption: Maastricht, the Netherlands · Bogotá, Colombia
+
+# Section cards. Set show: true on Beyond the Frame / Fieldnotes when they have content.
+cards:
+  - title: Research
+    tag: PhD · Bogotá
+    description: Hidden poverty, measurement and the households official instruments miss.
+    url: /research/
+    color: periwinkle
+    art: research
+    show: true
+  - title: Writing
+    tag: Essays & notes
+    description: Reflections on poverty, care, inequality and fieldwork.
+    url: /blog/
+    color: coral
+    art: writing
+    show: true
+  - title: Publications
+    tag: Papers
+    description: Articles, working papers and reports.
+    url: /publications/
+    color: butter
+    art: publications
+    show: true
+  - title: Beyond the Frame
+    tag: Art & film
+    description: How poverty is pictured, and who stays outside the frame.
+    url: /beyond-the-frame/
+    color: mauve
+    art: frame
+    show: false
+  - title: Fieldnotes
+    tag: Photos
+    description: Small moments, places and things worth noticing.
+    url: /fieldnotes/
+    color: mauve
+    art: fieldnotes
+    show: false
+
+feature:
+  label: Featured project · Bogotá
+  title: Cartographies of Hidden Poverty
+  text: >-
+    Collaborative cartography, narrative interviews, urban walks and photo elicitation in Teusaquillo,
+    Los Cedros, Galerías and Quinta Paredes. Funded by the Álvaro Reyes Young Researchers Grant (CEMR).
+  button: Visit the project
+  url: https://unveilinghiddenpoverty.com
 
 news: false
 selected_papers: false
