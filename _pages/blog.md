@@ -1,10 +1,10 @@
 ---
 layout: blog
 permalink: /blog/
-title: Notes from the field / Notas de campo
-description: Reflections on hidden poverty research in Colombian cities.
+title: writing
+description: Notes on poverty, measurement and fieldwork.
 nav: true
-nav_order: 6
+nav_order: 4
 pagination:
   enabled: true
   collection: posts
@@ -166,8 +166,7 @@ pagination:
           {% if categories != "" %}
           &nbsp; &middot; &nbsp;
             {% for category in post.categories %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
+            <a class="pill cat-{{ category | slugify }}" href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
               {% unless forloop.last %}
                 &nbsp;
               {% endunless %}

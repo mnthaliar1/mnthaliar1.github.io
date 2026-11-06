@@ -48,3 +48,6 @@ Invisibility is not only structural — it is also **performative**. Households 
 
 Rather than asking directly about economic situation, we explore tensions between appearance and experience.
 
+---
+
+I also teach and tutor at Maastricht University. See [teaching](/teaching/).

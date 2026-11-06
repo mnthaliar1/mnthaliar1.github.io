@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: CV
 nav: true
-nav_order: 5
+nav_order: 8
 ---
 
 [Download the full CV (PDF)]({{ '/assets/pdf/CV_Ramirez_Chaparro.pdf' | relative_url }})

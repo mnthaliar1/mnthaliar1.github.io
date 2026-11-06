@@ -1,0 +1,98 @@
+---
+layout: default
+---
+{% comment %}
+  Homepage layout (redesign 2026). Text and cards are set in the front matter
+  of _pages/home.md; the page body ({{ content }}) is the "About me" section.
+{% endcomment %}
+<div class="home">
+  <section class="home-hero">
+    <div class="hero-text">
+      {% if page.hero.label %}<span class="pill">{{ page.hero.label }}</span>{% endif %}
+      <h1>{{ page.hero.title }}</h1>
+      <p class="hero-intro">{{ page.hero.intro }}</p>
+      <div class="hero-actions">
+        <a class="btn-ink" href="{{ '/research/' | relative_url }}">See my research</a>
+        {% if site.cv_pdf %}
+          <a class="btn-outline-ink" href="{{ site.cv_pdf | relative_url }}" target="_blank" rel="noopener">Download CV</a>
+        {% endif %}
+      </div>
+    </div>
+    {% if page.hero.image %}
+      <figure class="hero-photo">
+        <div class="photo-frame">
+          <img src="{{ page.hero.image | prepend: 'assets/img/' | relative_url }}" alt="Portrait of {{ site.first_name }} {{ site.last_name }}" loading="eager">
+        </div>
+        {% if page.hero.caption %}<figcaption>{{ page.hero.caption }}</figcaption>{% endif %}
+      </figure>
+    {% endif %}
+  </section>
+
+  <section class="section-cards" aria-label="Sections">
+    {% for card in page.cards %}
+      {% if card.show %}
+        <a class="section-card" href="{{ card.url | relative_url }}">
+          <div class="card-top">
+            <div class="card-head">
+              <span class="pill">{{ card.tag }}</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="#111111" stroke-width="1.6" aria-hidden="true"><path d="M4 12 12 4M6 4h6v6"></path></svg>
+            </div>
+            <span class="card-name">{{ card.title }}</span>
+            <span class="card-desc">{{ card.description }}</span>
+          </div>
+          <div class="card-art" style="background: var(--pastel-{{ card.color }});">
+            {% include card_art.liquid art=card.art %}
+          </div>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </section>
+
+  <section class="home-about" id="about">
+    <h2>About me</h2>
+    {{ content }}
+  </section>
+
+  <section class="home-writing">
+    <div class="writing-intro">
+      <h2>Recent writing</h2>
+      <p>{{ site.blog_description }}</p>
+      <a href="{{ '/blog/' | relative_url }}">All posts →</a>
+    </div>
+    <ul class="writing-list">
+      {% for post in site.posts limit: 3 %}
+        {% assign cat = post.categories | first %}
+        <li>
+          <a class="writing-row" href="{{ post.url | relative_url }}">
+            <span class="row-text">
+              <span class="row-title">{{ post.title }}</span>
+              {% if post.description %}<span class="row-desc">{{ post.description }}</span>{% endif %}
+            </span>
+            <span class="row-meta">
+              {% if cat %}<span class="pill cat-{{ cat | slugify }}">{{ cat }}</span>{% endif %}
+              {{ post.date | date: '%b %Y' }}
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+  {% if page.feature %}
+    <section class="feature-band">
+      <div class="feature-text">
+        <span class="pill">{{ page.feature.label }}</span>
+        <h2>{{ page.feature.title }}</h2>
+        <p>{{ page.feature.text }}</p>
+      </div>
+      <a class="btn-ink" href="{{ page.feature.url }}" target="_blank" rel="noopener">{{ page.feature.button }}</a>
+    </section>
+  {% endif %}
+
+  {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">{% social_links %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+  {% endif %}
+</div>

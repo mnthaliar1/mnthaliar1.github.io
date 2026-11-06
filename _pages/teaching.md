@@ -3,8 +3,8 @@ layout: page
 permalink: /teaching/
 title: teaching
 description: Teaching, supervision and mentoring.
-nav: true
-nav_order: 4
+nav: false
+nav_order: 9
 ---
 
 ## Teaching

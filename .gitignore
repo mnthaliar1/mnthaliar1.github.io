@@ -13,3 +13,5 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+# Local files not part of the site
+Claude outputs/
