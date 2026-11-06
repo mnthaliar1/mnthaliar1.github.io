@@ -1,0 +1,76 @@
+---
+layout: page
+---
+{% comment %}
+  Layout for the Beyond the Frame and Fieldnotes pages. The page body is the
+  intro text; set `section: frame` or `section: fieldnotes` in the front matter.
+{% endcomment %}
+<div class="section-lede">{{ content }}</div>
+
+{% if page.section == 'frame' %}
+  <div class="topic-grid">
+    {% for theme in page.themes %}
+      <div class="topic-card" style="background: var(--pastel-{{ theme.color }});">
+        <span class="topic-num">0{{ forloop.index }}</span>
+        <h3>{{ theme.title }}</h3>
+        <p>{{ theme.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% assign pieces = site.categories.art %}
+  <h2 class="section-subhead">Pieces</h2>
+  {% if pieces and pieces.size > 0 %}
+    <ul class="writing-list">
+      {% for post in pieces %}
+        <li>
+          <a class="writing-row" href="{{ post.url | relative_url }}">
+            <span class="row-text">
+              <span class="row-title">{{ post.title }}</span>
+              {% if post.description -%}
+                <span class="row-desc">{{ post.description }}</span>
+              {%- endif %}
+            </span>
+            <span class="row-meta">{{ post.date | date: '%b %Y' }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p class="soon-note">The first pieces are on their way.</p>
+  {% endif %}
+{% endif %}
+
+{% if page.section == 'fieldnotes' %}
+  {% assign photos = site.data.fieldnotes %}
+  {% if photos and photos.size > 0 %}
+    <div class="photo-grid">
+      {% for photo in photos %}
+        <figure class="photo-item">
+          <img
+            src="{{ photo.image | prepend: 'assets/img/fieldnotes/' | relative_url }}"
+            alt="{{ photo.alt | default: photo.caption }}"
+            loading="lazy"
+          >
+          <figcaption>
+            {% if photo.caption -%}
+              <span class="photo-caption">{{ photo.caption }}</span>
+            {%- endif %}
+            <span class="photo-meta">
+              {{- photo.place -}}
+              {%- if photo.place and photo.date %} · {% endif -%}
+              {{- photo.date -}}
+            </span>
+          </figcaption>
+        </figure>
+      {% endfor %}
+    </div>
+  {% else %}
+    <div class="photo-grid">
+      <div class="photo-item photo-empty" style="background: var(--pastel-mauve);">{% include card_art.liquid art="fieldnotes" %}</div>
+      <div class="photo-item photo-empty" style="background: var(--pastel-butter);">{% include card_art.liquid art="fieldnotes" %}</div>
+      <div class="photo-item photo-empty" style="background: var(--pastel-periwinkle);">{% include card_art.liquid art="fieldnotes" %}</div>
+    </div>
+    <p class="soon-note">The first photos are on their way.</p>
+  {% endif %}
+{% endif %}

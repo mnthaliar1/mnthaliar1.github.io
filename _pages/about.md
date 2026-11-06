@@ -13,7 +13,7 @@ hero:
   image: prof_pic.jpg
   caption: Maastricht, the Netherlands · Bogotá, Colombia
 
-# Section cards. Set show: true on Beyond the Frame / Fieldnotes when they have content.
+# Section cards on the homepage. Set show: false to hide one.
 cards:
   - title: Research
     tag: PhD · Bogotá
@@ -29,27 +29,20 @@ cards:
     color: coral
     art: writing
     show: true
-  - title: Publications
-    tag: Papers
-    description: Articles, working papers and reports.
-    url: /publications/
-    color: butter
-    art: publications
-    show: true
   - title: Beyond the Frame
     tag: Art & film
     description: How poverty is pictured, and who stays outside the frame.
     url: /beyond-the-frame/
-    color: mauve
+    color: butter
     art: frame
-    show: false
+    show: true
   - title: Fieldnotes
     tag: Photos
     description: Small moments, places and things worth noticing.
     url: /fieldnotes/
     color: mauve
     art: fieldnotes
-    show: false
+    show: true
 
 feature:
   label: Featured project · Bogotá
